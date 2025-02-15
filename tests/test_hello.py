@@ -3,7 +3,7 @@ import unittest
 from unittest.mock import patch
 import io
 import argparse
-from klickbrick_cli import hello  # Import the hello module
+from src import hello  # Import the hello module
 
 
 class TestHelloCommand(unittest.TestCase):

@@ -1,6 +1,6 @@
 # src/klickbrick_cli/__init__.py
 import argparse
-from klickbrick_cli import hello  # Import the hello module
+from src import hello  # Import the hello module
 
 def main():
     parser = argparse.ArgumentParser(description="Klickbrick CLI")

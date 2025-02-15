@@ -10,11 +10,8 @@ requires-python = ">=3.11"
 dependencies = [
 ]
 
-[tool.poetry]
-packages = [{include = "klickbrick_cli", from = "src"}]
-
 [tool.poetry.scripts]
-klickbrick = "klickbrick_cli:main"
+klickbrick = "src:main"
 
 
 [build-system]

@@ -13,6 +13,9 @@ dependencies = [
 [tool.poetry]
 packages = [{include = "klickbrick_cli", from = "src"}]
 
+[tool.poetry.scripts]
+klickbrick = "klickbrick_cli:main"
+
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
